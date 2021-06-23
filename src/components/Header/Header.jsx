@@ -10,12 +10,12 @@ const Header = () => {
     <header>
       <div className="header__container">
         <div className="upper__header">
-        <h1 className="header__title">Shortly</h1>
-        <Menu/>
+          <h1 className="header__title">Shortly</h1>
+            <Menu />
         </div>
         <div className="header__buttons">
-        <button className="mobile__login">Login</button>
-        <button className="mobile__register">Sign Up</button>
+          <button className="mobile__login">Login</button>
+          <button className="mobile__register">Sign Up</button>
         </div>
         <div className="burger">
           <Hamburger
@@ -27,7 +27,7 @@ const Header = () => {
           />
         </div>
       </div>
-      {openMenu && <MobileMenu />}
+      {openMenu &&  (<MobileMenu />)}
     </header>
   );
 };

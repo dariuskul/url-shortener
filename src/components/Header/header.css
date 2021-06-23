@@ -33,7 +33,6 @@ a{
 }
 
 .header__title{
-    margin-top: 0.5rem;
     font-weight: 700;
     font-size: 2    em;
 }
@@ -46,6 +45,7 @@ a{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    margin-top: 0.5em;
     margin-bottom: -14px;
 }
 
