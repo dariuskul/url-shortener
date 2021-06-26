@@ -1,0 +1,30 @@
+main {
+    background-color:  hsl(257, 7%, 90%);
+    margin-top: -5.6em;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.features__wrapper{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.summary{
+    padding-top: 10em;
+    text-align: center;
+}
+
+.summary > h3 {
+    font-size: 1.5em;
+}
+
+.summary > p {
+    color: var(--grayishViolet);
+}
+
+.cards__container{
+    margin-top: 5em;
+}
+
