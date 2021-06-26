@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Input from "./components/Input/Input";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
+      <Input/>
     </div>
   );
 }
