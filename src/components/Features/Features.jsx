@@ -21,7 +21,7 @@ const Features = () => {
 
                 <div className="cards__container">
                     {features.map((item,i) => 
-                        <Card description={item.description} title={item.title} image={item.image} line={i < features.length-1}/>
+                        <Card className="container__item" description={item.description} title={item.title} image={item.image} line={i < features.length-1}/>
                     )}
                 </div>
             </div>

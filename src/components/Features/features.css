@@ -9,22 +9,39 @@ main {
 .features__wrapper{
     margin-left: 1em;
     margin-right: 1em;
+    
 }
 
 .summary{
     padding-top: 10em;
     text-align: center;
+
 }
 
 .summary > h3 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .summary > p {
     color: var(--grayishViolet);
+    font-size: 18px;
 }
 
 .cards__container{
     margin-top: 5em;
+}
+
+@media (min-width: 905px){
+    .cards__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .summary{
+        margin-right: 10em;
+        margin-left: 10em;
+    }
+
 }
 
