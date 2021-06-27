@@ -1,7 +1,7 @@
 const MobileMenu = () => {
   return (
     <div className="mobile__container">
-      <ul>
+      <ul className="mobile__list">
         <li>Features</li>
         <li>Pricing</li>
         <li>Resources</li>

@@ -1,4 +1,5 @@
 import Features from "./components/Features/Features";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Input from "./components/Input/Input";
@@ -13,6 +14,7 @@ function App() {
       <Input/>
       <Features/>
       <Starter/>
+      <Footer/>
     </div>
   );
 }
