@@ -1,9 +1,10 @@
 main {
     background-color:  hsl(257, 7%, 90%);
     margin-top: -5.6em;
-    position: absolute;
+    position: relative;
     z-index: -1;
     width: 100%;
+    padding-bottom: 4em;
 }
 
 .features__wrapper{
@@ -31,16 +32,22 @@ main {
     margin-top: 5em;
 }
 
+
 @media (min-width: 905px){
     .cards__container{
         display: flex;
-        align-items: center;
+        gap: 2em;
         justify-content: center;
     }
 
     .summary{
         margin-right: 10em;
         margin-left: 10em;
+    }
+
+    .features__wrapper{
+        margin-left: 9em;
+        margin-right: 9em;
     }
 
 }
