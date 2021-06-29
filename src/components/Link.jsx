@@ -1,4 +1,4 @@
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import './link.css'
 const Link = ({originalLink, shortenedLink}) => {
     const [clicked,setClicked] = useState(false);
