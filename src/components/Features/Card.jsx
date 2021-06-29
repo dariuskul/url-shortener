@@ -9,7 +9,6 @@ const Card = ({ title, description, image, line }) => {
         <h3>{title} </h3>
         <p>{description}</p>
       </div>
-      {console.log(line)}
       {line && <div className="card__line"></div>}
     </div>
   );

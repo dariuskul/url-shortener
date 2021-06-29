@@ -32,6 +32,10 @@ a{
     margin-left: 1.75em;
 }
 
+.menu__container > a:hover{
+    color: black;
+}
+
 .header__title{
     font-weight: 700;
     font-size: 2    em;
@@ -110,6 +114,10 @@ button{
     align-items: center;
 }
 
+.upper__header > h1{
+    cursor: pointer;
+}
+
 .mobile__container{
     padding: 1em;
     background-color: var(--violet);
@@ -142,12 +150,20 @@ button{
         color: var(--grayishViolet);
     }
 
+    .mobile__login:hover{
+        color: black;
+    }
+
     .mobile__register{
         margin: 0;
         width: 100%;
         padding-right: 1em;
         padding-left: 1em;
         
+    }
+
+    .mobile__register:hover{
+        opacity: 50%;
     }
 
     .header__buttons{

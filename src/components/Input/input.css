@@ -2,12 +2,15 @@
   background-color: var(--violet);
   background-image: url(../../assets/bg-shorten-mobile.svg);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: center center;
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
   border-radius: 10px;
+  position: relative;
+  z-index: 2;
 }
+
 
 input:hover {
   border: none;
@@ -47,6 +50,10 @@ form {
   padding: 1em;
   padding-right: 1.5em;
   padding-left: 1.5em;
+}
+
+.link__form > button:hover{
+  opacity: 80%;
 }
 
 @media (min-width: 905px) {

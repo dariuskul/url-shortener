@@ -32,6 +32,10 @@
   font-size: 1.5em;
 }
 
+.starter__wrapper > button:hover {
+    opacity: 80%;
+}
+
 @media (min-width: 905px) {
     .starter__section{
         background-image: url(../../assets/bg-boost-desktop.svg);

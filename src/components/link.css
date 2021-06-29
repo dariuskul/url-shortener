@@ -1,0 +1,90 @@
+.link__container{
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    z-index: 999;
+}
+
+.link__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link__wrapper > h3 {
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.divisor{
+    border-bottom: 1px solid;
+    width: 100%;
+    height: 0px;
+}
+
+.shortener__wrapper{
+    padding: 1em;
+}
+
+.copy__button{
+  border: none;
+  cursor: pointer;
+  position:relative;
+  background-color: var(--cyan);
+  color: white;
+  white-space: nowrap;
+  border-radius: 10px;
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 1em;
+  z-index: 999;
+}
+
+.button__clicked{
+    border: none;
+    cursor: pointer;
+    background-color: var(--darkViolet);
+    color: white;
+    white-space: nowrap;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 1em;
+
+
+}
+
+.shortener__wrapper > h3 {
+    margin: 0;
+    color: var(--cyan);
+}
+
+@media (min-width: 1250px) {
+
+    .divisor{
+        display: none;
+    }
+    .link__wrapper{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em;
+
+    }
+
+    .shortener__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .new__link{
+        white-space: nowrap;
+    }
+
+    .button__clicked, .copy__button{
+        margin-top: 0;
+        margin-left: 1em;
+    }
+}
+
