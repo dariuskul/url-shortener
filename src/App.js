@@ -39,7 +39,7 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
-      <Input setUrl={setUrl} onSubmit={handleSubmit}/>
+      <Input setUrl={setUrl} validation={error} onSubmit={handleSubmit}/>
       <Features shortened={shortened} isLoading={loading} error={apiError}/>
       <Starter/>
       <Footer/>

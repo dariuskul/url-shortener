@@ -11,6 +11,17 @@
   z-index: 2;
 }
 
+.validation{
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 1em;
+  font-size: 18px;
+  color: red;
+  font-style: italic;
+}
+
 
 input:hover {
   border: none;
