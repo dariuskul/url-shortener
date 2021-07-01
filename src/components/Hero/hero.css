@@ -42,10 +42,6 @@
   padding-bottom: 0.8em;
 }
 
-.hero__typography > button:hover{
-  opacity: 50%;
-}
-
 
 @media (min-width: 905px){
   .hero__section{

@@ -162,10 +162,6 @@ button{
         
     }
 
-    .mobile__register:hover{
-        opacity: 50%;
-    }
-
     .header__buttons{
         display: flex;
     }
