@@ -29,7 +29,7 @@ npm i
 npm start
 ```
 
-## [DEMO](http://supershorty.netlify.app)
+## [DEMO](https://shindero.github.io/url-shortener/)
 
 ## License
 
